@@ -19,7 +19,7 @@ public class Aplicacion {
         CuentaBancaria [] lista=new CuentaBancaria[5];
         lista[0]=new CuentaAhorro("1", "Perez", d1 , "41231313M", "111111642343211114567890", 32);
         lista[0].ingreso(432);
-        lista[1]=new CuentaAhorro("2", "Perez", d1 , "41231313M", "111111111143211634567890", 32);
+        lista[1]=new CuentaAhorro("2", "PedroPerez", d1 , "41231313M", "111111111143211634567890", 32);
         lista[1].ingreso(712);
         lista[2]=new CuentaAhorro("3", "Perez", d1 , "41231313M", "111111183443291234567890", 32);
         lista[2].ingreso(132);
